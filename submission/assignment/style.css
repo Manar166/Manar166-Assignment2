@@ -29,7 +29,7 @@ body {
     color: #fff;
     font-size: 24px;
     text-align: right;
-    padding: 6px;
+    padding: 10px;
     border: none;
     border-radius: 6px;
     margin-bottom: 15px;
@@ -65,6 +65,7 @@ button:hover {
 
 .btn-clear {
     background: #f44336;
+    grid-column: span 3; /* يخلي C ياخد مكان الثلاث أزرار اللي شيلناهم */
 }
 
 .btn-zero {
