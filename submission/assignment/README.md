@@ -27,7 +27,7 @@ Handles:
 
 ## 🎥 Demo GIF
 
-![Calculator Demo](assets/calculator.gif)
+![Calculator Demo](/assets/Animation.gif)
 
 ---
 
