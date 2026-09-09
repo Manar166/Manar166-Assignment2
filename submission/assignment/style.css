@@ -65,7 +65,7 @@ button:hover {
 
 .btn-clear {
     background: #f44336;
-    grid-column: span 3; /* يخلي C ياخد مكان الثلاث أزرار اللي شيلناهم */
+    grid-column: span 3; 
 }
 
 .btn-zero {

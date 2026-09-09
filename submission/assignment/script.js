@@ -1,7 +1,7 @@
 const display = document.querySelector(".display");
 const buttons = document.querySelectorAll(".buttons button");
 
-let justCalculated = false; // حالة بعد الضغط على =
+let justCalculated = false; 
 
 buttons.forEach(button => {
     button.addEventListener("click", () => {
@@ -18,7 +18,7 @@ buttons.forEach(button => {
         if (button.classList.contains("btn-eq")) {
             try {
                 display.value = eval(display.value);
-                justCalculated = true; // تم الحساب
+                justCalculated = true; 
             } catch {
                 display.value = "Error";
             }
@@ -26,14 +26,14 @@ buttons.forEach(button => {
         }
 
       
-        // لو المستخدم ضغط رقم بعد =
+        
         if (justCalculated && !isNaN(value)) {
-            display.value = value; // ابدأ من جديد
+            display.value = value; 
             justCalculated = false;
             return;
         }
 
-        // باقي الأزرار
+        
         display.value += value;
         justCalculated = false;
     });

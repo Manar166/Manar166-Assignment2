@@ -8,10 +8,10 @@ Thumbs.db
 # Logs
 *.log
 
-# Node modules (لو استخدمت Live Server أو أي باكدج)
+# Node modules 
 node_modules/
 
-# Build folders (لو عملت نسخة مستقبلية فيها build)
+# Build folders 
 dist/
 build/
 
